@@ -46,6 +46,3 @@ def get_image(crop_name):
     image_folder = 'insights'
     image_filename = f"{crop_name}.png"
     return send_from_directory(image_folder, image_filename)
-
-if __name__ == '__main__':
-    app.run(debug=True)
