@@ -46,3 +46,7 @@ def get_image(crop_name):
     image_folder = 'insights'
     image_filename = f"{crop_name}.png"
     return send_from_directory(image_folder, image_filename)
+
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))  # Use PORT from environment if available, else default to 5000
+    app.run(host='0.0.0.0', port=port, debug=True)
