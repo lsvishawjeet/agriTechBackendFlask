@@ -1,4 +1,4 @@
-﻿blinker==1.8.2
+blinker==1.8.2
 click==8.1.7
 colorama==0.4.6
 contourpy==1.2.1
@@ -6,6 +6,7 @@ cycler==0.12.1
 Flask==3.0.3
 Flask-Cors==4.0.1
 fonttools==4.53.0
+gunicorn==22.0.0
 itsdangerous==2.2.0
 Jinja2==3.1.4
 joblib==1.4.2
@@ -27,4 +28,3 @@ sklearn==0.0
 threadpoolctl==3.5.0
 tzdata==2024.1
 Werkzeug==3.0.3
-gunicorn
